@@ -31,9 +31,9 @@ class Particle{
         // this.x = DX
         // this.x = this.baseX -  Math.sqrt(DX)/5
         if(sub > 0){
-            this.x = this.baseX -  Math.sqrt(DX)*this.density/20
+            this.x = this.baseX -  Math.sqrt(DX)*this.density/8
         }else{
-            this.x = this.baseX +  Math.sqrt(DX)*this.density/20
+            this.x = this.baseX +  Math.sqrt(DX)*this.density/8
 
         }
         let heigh = e.clientY / 1
@@ -44,9 +44,9 @@ class Particle{
         // this.x = DX
         // this.x = this.baseX -  Math.sqrt(DX)/5
         if(subHeight > 0){
-            this.y = this.baseY -  Math.sqrt(DY)*this.density/20
+            this.y = this.baseY -  Math.sqrt(DY)*this.density/8
         }else{
-            this.y = this.baseY +  Math.sqrt(DY)*this.density/20
+            this.y = this.baseY +  Math.sqrt(DY)*this.density/8
 
         }
         // console.log(sub);
